@@ -8,7 +8,7 @@ Il faut placer "start.vbs" dans le dossier `C:\Users\USERNAME\AppData\Roaming\Mi
 
 Dans le script "start.vbs", il faut ajouter le lien vers le script "app.js". Moi je l'ai mis dans `C:/Users/USERNAME/Documents/scrape_epicgames`.
     
-```javascript
+```vbs
 command = "powershell.exe node 'C:/Users/USERNAME/Documents/scrape_epicgames/app.js'"
 set shell = CreateObject("WScript.Shell")
 shell.Run command,0
