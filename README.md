@@ -2,7 +2,7 @@
   
     Pour Windows
 
-`USERNAME :` Nom d'utilisateur Windows
+`USERNAME` : Nom d'utilisateur Windows
 
 Il faut placer "start.vbs" dans le dossier `C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`, pour exécuter le script au démarrage.
 
